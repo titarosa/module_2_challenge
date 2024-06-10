@@ -45,19 +45,21 @@ header {
   box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
 }
 
+
 header h1 {
   color: var(--tertiary);
   background-color: var(--forth);
   padding: 5px 1% 5px 6%;
-  margin: 0;
   font-size: 4vw;
   line-height: 1;
+  margin: 0; /* Remove default margin */
+
 }
 
 /* Header image styles */
 .header-image {
   max-height: 100px; 
-  margin-right: 500px; 
+  margin-right: 900px; 
 }
 
 /* Navigation styles */
@@ -65,6 +67,10 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-left: auto; 
+  margin-top: -100px; 
+  line-height: 1.5;
+ 
 }
 
 nav a {
@@ -78,6 +84,8 @@ nav a {
   background-position: bottom;
   transition: all 0.25s ease-in;
   font-size: 1.4rem;
+  line-height: 1.5;
+
 }
 
 nav a:hover {
